@@ -63,12 +63,12 @@ h2 {
     padding-bottom: 1em;
 }
 
-#datos_personales h2 {
+#curiosidades h2 {
     color:#383838;
     padding-bottom: 1em;
 }
 
-#datos_personales{
+#curiosidades{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -79,7 +79,7 @@ h2 {
 }
 
 
-#datos_personales span{
+#curiosidades span{
     font-style:normal;
     font-weight:normal;
 }
@@ -98,8 +98,8 @@ ul li {
 }
 
 .boton__paulalandia {
-    background-color:#80217E;
-    color: white;
+    background-color:white;
+    color:#80217E;
     font-size: 18px;
     display: block;
     width: 280px;
