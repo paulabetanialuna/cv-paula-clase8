@@ -12,37 +12,50 @@ body {
 
 header {
     display: flex;
-    justify-content:end; 
-    align-items:center;
-    flex-direction: column;
-    margin-bottom: 0px;
-    background-image: url("img/cvpaulafondo.jpg");
+    justify-content:flex-end; 
+    background-image: url("img/cvpaulafondo2.jpg");
     background-size:cover;
     height: 70vh;
+    align-items: center;
 }
 
-header img {
-    margin-top:0px;
+.boton__paulalandia {
+    background-color:#80217E;
+    color:white;
+    font-size: 18px;
+    width: 280px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    border: 8px solid white;
+    margin-right: 4em;
+    
 }
+
+#paulalandia a {
+    text-decoration: none;
+}
+
+
 
 h1{
     color: #80217E;
-    font-size: 35px;
+    font-size: 4em;
     font-weight: 700;
     width: 100%;
     left: 0px;
     top: 188px;
     text-align: center;
-    letter-spacing: 12px;
-    word-spacing: 20px;
-    margin-top: -3.5em;
+    letter-spacing: 3px;
+    word-spacing: 12px;
 }
 
 
 
 main {
     background-color: white;
-    padding:104px 225px 50px 225px;
+    padding:30px 225px 50px 225px;
 }
 
 section{
@@ -97,28 +110,7 @@ ul li {
     font-weight:normal;
 }
 
-.boton__paulalandia {
-    background-color:white;
-    color:#80217E;
-    font-size: 18px;
-    display: block;
-    width: 280px;
-    border-radius: 25px;
-    padding: 10px;
-    text-align: center;
-    font-weight: 400;
-    
-}
 
-#paulalandia a {
-    text-decoration: none;
-}
-
-#paulalandia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 footer{
     background-color: #383838;
